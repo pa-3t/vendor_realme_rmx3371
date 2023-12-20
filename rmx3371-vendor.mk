@@ -617,6 +617,13 @@ PRODUCT_COPY_FILES += \
     vendor/realme/rmx3371/proprietary/odm/lib/hw/awinic.haptic.effect.so:$(TARGET_COPY_OUT_ODM)/lib/hw/awinic.haptic.effect.so \
     vendor/realme/rmx3371/proprietary/odm/lib/lib-virtual-modem-protos.so:$(TARGET_COPY_OUT_ODM)/lib/lib-virtual-modem-protos.so \
     vendor/realme/rmx3371/proprietary/odm/lib/libDeVIS.so:$(TARGET_COPY_OUT_ODM)/lib/libDeVIS.so \
+    vendor/realme/spartan/proprietary/odm/lib/libaiboost.so:$(TARGET_COPY_OUT_ODM)/lib/libaiboost.so \
+    vendor/realme/spartan/proprietary/odm/lib/libaiboost_hexagon.so:$(TARGET_COPY_OUT_ODM)/lib/libaiboost_hexagon.so \
+    vendor/realme/spartan/proprietary/odm/lib/libaiboost_nnlib_sr.so:$(TARGET_COPY_OUT_ODM)/lib/libaiboost_nnlib_sr.so \
+    vendor/realme/spartan/proprietary/odm/lib/libaiboost_sr.so:$(TARGET_COPY_OUT_ODM)/lib/libaiboost_sr.so \
+    vendor/realme/spartan/proprietary/odm/lib/libaiboost_ubwc.so:$(TARGET_COPY_OUT_ODM)/lib/libaiboost_ubwc.so \
+    vendor/realme/spartan/proprietary/odm/lib/libosie_process.so:$(TARGET_COPY_OUT_ODM)/lib/libosie_process.so \
+    vendor/realme/spartan/proprietary/odm/lib/libosie_stub.so:$(TARGET_COPY_OUT_ODM)/lib/libosie_stub.so \
     vendor/realme/rmx3371/proprietary/odm/lib/libaacvibrator.so:$(TARGET_COPY_OUT_ODM)/lib/libaacvibrator.so \
     vendor/realme/rmx3371/proprietary/odm/lib/libaudioEngineerTest.so:$(TARGET_COPY_OUT_ODM)/lib/libaudioEngineerTest.so \
     vendor/realme/rmx3371/proprietary/odm/lib/libc++_shared.so:$(TARGET_COPY_OUT_ODM)/lib/libc++_shared.so \
