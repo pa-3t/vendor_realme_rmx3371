@@ -908,7 +908,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/rmx3371/proprietary/odm/lib64/vendor.oplus.hardware.cameraextension-V1-service-impl.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.cameraextension-V1-service-impl.so \
     vendor/realme/rmx3371/proprietary/odm/lib64/vendor.oplus.hardware.cammidasservice-V1-ndk_platform.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.cammidasservice-V1-ndk_platform.so \
     vendor/realme/rmx3371/proprietary/odm/lib64/vendor.oplus.hardware.commondcs-V1-ndk_platform.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.commondcs-V1-ndk_platform.so \
-    vendor/realme/rmx3371/proprietary/odm/lib64/vendor.oplus.hardware.commondcs@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.commondcs@1.0.so \
     vendor/realme/rmx3371/proprietary/odm/lib64/vendor.oplus.hardware.communicationcenter_compat@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.communicationcenter_compat@1.0.so \
     vendor/realme/rmx3371/proprietary/odm/lib64/vendor.oplus.hardware.ims@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.ims@1.0.so \
     vendor/realme/rmx3371/proprietary/odm/lib64/vendor.oplus.hardware.olc2-V1-ndk_platform.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.olc2-V1-ndk_platform.so \
