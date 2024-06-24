@@ -312,8 +312,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/rmx3371/proprietary/odm/etc/camera/motionblur/model.data:$(TARGET_COPY_OUT_ODM)/etc/camera/motionblur/model.data \
     vendor/realme/rmx3371/proprietary/odm/etc/camera/mtStereoParams.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/mtStereoParams.bin \
     vendor/realme/rmx3371/proprietary/odm/etc/camera/mwStereoParams.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/mwStereoParams.bin \
-    vendor/realme/rmx3371/proprietary/odm/etc/camera/omoji/assets/sdk_assets/ai_face_processor_e47_s1.bundle:$(TARGET_COPY_OUT_ODM)/etc/camera/omoji/assets/sdk_assets/ai_face_processor_e47_s1.bundle \
-    vendor/realme/rmx3371/proprietary/odm/etc/camera/omoji/assets/sdk_assets/controller_cpp.bundle:$(TARGET_COPY_OUT_ODM)/etc/camera/omoji/assets/sdk_assets/controller_cpp.bundle \
     vendor/realme/rmx3371/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/colorLut0:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/colorLut0 \
     vendor/realme/rmx3371/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/colorLut1:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/colorLut1 \
     vendor/realme/rmx3371/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/colorLut10:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/colorLut10 \
@@ -699,10 +697,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/rmx3371/proprietary/odm/lib64/camera/components/com.oplus.node.aiaftrack.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/components/com.oplus.node.aiaftrack.so \
     vendor/realme/rmx3371/proprietary/odm/lib64/camera/components/com.oplus.node.drawafinfo.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/components/com.oplus.node.drawafinfo.so \
     vendor/realme/rmx3371/proprietary/odm/lib64/camera/components/com.oplus.node.ecs.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/components/com.oplus.node.ecs.so \
-    vendor/realme/rmx3371/proprietary/odm/lib64/camera/components/com.oplus.node.eispreview.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/components/com.oplus.node.eispreview.so \
-    vendor/realme/rmx3371/proprietary/odm/lib64/camera/components/com.oplus.node.eisrecord.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/components/com.oplus.node.eisrecord.so \
-    vendor/realme/rmx3371/proprietary/odm/lib64/camera/components/com.oplus.node.ozeispreview.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/components/com.oplus.node.ozeispreview.so \
-    vendor/realme/rmx3371/proprietary/odm/lib64/camera/components/com.oplus.node.ozeisrecord.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/components/com.oplus.node.ozeisrecord.so \
     vendor/realme/rmx3371/proprietary/odm/lib64/camera/components/com.oplus.node.preview.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/components/com.oplus.node.preview.so \
     vendor/realme/rmx3371/proprietary/odm/lib64/camera/components/com.oplus.node.sat.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/components/com.oplus.node.sat.so \
     vendor/realme/rmx3371/proprietary/odm/lib64/camera/components/com.oplus.node.sstabdefer.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/components/com.oplus.node.sstabdefer.so \
@@ -734,7 +728,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/rmx3371/proprietary/odm/lib64/libAncSegBaseSdk.so:$(TARGET_COPY_OUT_ODM)/lib64/libAncSegBaseSdk.so \
     vendor/realme/rmx3371/proprietary/odm/lib64/libAncSegmentSdk.so:$(TARGET_COPY_OUT_ODM)/lib64/libAncSegmentSdk.so \
     vendor/realme/rmx3371/proprietary/odm/lib64/libBokehPre.so:$(TARGET_COPY_OUT_ODM)/lib64/libBokehPre.so \
-    vendor/realme/rmx3371/proprietary/odm/lib64/libCNamaSDK_vendor.so:$(TARGET_COPY_OUT_ODM)/lib64/libCNamaSDK_vendor.so \
     vendor/realme/rmx3371/proprietary/odm/lib64/libCOppLceTonemapAPI.so:$(TARGET_COPY_OUT_ODM)/lib64/libCOppLceTonemapAPI.so \
     vendor/realme/rmx3371/proprietary/odm/lib64/libCaptureBokeh.so:$(TARGET_COPY_OUT_ODM)/lib64/libCaptureBokeh.so \
     vendor/realme/rmx3371/proprietary/odm/lib64/libDeVIS.so:$(TARGET_COPY_OUT_ODM)/lib64/libDeVIS.so \
@@ -749,7 +742,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/rmx3371/proprietary/odm/lib64/libFilterWrapper.so:$(TARGET_COPY_OUT_ODM)/lib64/libFilterWrapper.so \
     vendor/realme/rmx3371/proprietary/odm/lib64/libHdrVideo.so:$(TARGET_COPY_OUT_ODM)/lib64/libHdrVideo.so \
     vendor/realme/rmx3371/proprietary/odm/lib64/libImageWarpMask.so:$(TARGET_COPY_OUT_ODM)/lib64/libImageWarpMask.so \
-    vendor/realme/rmx3371/proprietary/odm/lib64/libNamaWrapper.so:$(TARGET_COPY_OUT_ODM)/lib64/libNamaWrapper.so \
     vendor/realme/rmx3371/proprietary/odm/lib64/libNightVideo.so:$(TARGET_COPY_OUT_ODM)/lib64/libNightVideo.so \
     vendor/realme/rmx3371/proprietary/odm/lib64/libOGLManager.so:$(TARGET_COPY_OUT_ODM)/lib64/libOGLManager.so \
     vendor/realme/rmx3371/proprietary/odm/lib64/libOPLUS_SCPortrait.so:$(TARGET_COPY_OUT_ODM)/lib64/libOPLUS_SCPortrait.so \
@@ -803,10 +795,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/rmx3371/proprietary/odm/lib64/libapsexif.so:$(TARGET_COPY_OUT_ODM)/lib64/libapsexif.so \
     vendor/realme/rmx3371/proprietary/odm/lib64/libapsjpeg.so:$(TARGET_COPY_OUT_ODM)/lib64/libapsjpeg.so \
     vendor/realme/rmx3371/proprietary/odm/lib64/libapspng.so:$(TARGET_COPY_OUT_ODM)/lib64/libapspng.so \
-    vendor/realme/rmx3371/proprietary/odm/lib64/libarc_eis.so:$(TARGET_COPY_OUT_ODM)/lib64/libarc_eis.so \
-    vendor/realme/rmx3371/proprietary/odm/lib64/libarc_eis_custom.so:$(TARGET_COPY_OUT_ODM)/lib64/libarc_eis_custom.so \
-    vendor/realme/rmx3371/proprietary/odm/lib64/libarc_sateis.so:$(TARGET_COPY_OUT_ODM)/lib64/libarc_sateis.so \
-    vendor/realme/rmx3371/proprietary/odm/lib64/libarc_sateis_custom.so:$(TARGET_COPY_OUT_ODM)/lib64/libarc_sateis_custom.so \
     vendor/realme/rmx3371/proprietary/odm/lib64/libarcsoft_aicolor_image.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_aicolor_image.so \
     vendor/realme/rmx3371/proprietary/odm/lib64/libarcsoft_aicolor_video.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_aicolor_video.so \
     vendor/realme/rmx3371/proprietary/odm/lib64/libarcsoft_distortion_correction.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_distortion_correction.so \
@@ -837,7 +825,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/rmx3371/proprietary/odm/lib64/libarcsoft_smart_denoise_v4.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_smart_denoise_v4.so \
     vendor/realme/rmx3371/proprietary/odm/lib64/libarcsoft_super_night_raw.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_super_night_raw.so \
     vendor/realme/rmx3371/proprietary/odm/lib64/libarcsoft_super_night_se_raw.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_super_night_se_raw.so \
-    vendor/realme/rmx3371/proprietary/odm/lib64/libarcsoft_supervideostabilization.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_supervideostabilization.so \
     vendor/realme/rmx3371/proprietary/odm/lib64/libarcsoft_videoautozoom.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_videoautozoom.so \
     vendor/realme/rmx3371/proprietary/odm/lib64/libbsproxy.so:$(TARGET_COPY_OUT_ODM)/lib64/libbsproxy.so \
     vendor/realme/rmx3371/proprietary/odm/lib64/libc++_shared.so:$(TARGET_COPY_OUT_ODM)/lib64/libc++_shared.so \
@@ -850,7 +837,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/rmx3371/proprietary/odm/lib64/libcommcenterfw.so:$(TARGET_COPY_OUT_ODM)/lib64/libcommcenterfw.so \
     vendor/realme/rmx3371/proprietary/odm/lib64/libcommcenterutils.so:$(TARGET_COPY_OUT_ODM)/lib64/libcommcenterutils.so \
     vendor/realme/rmx3371/proprietary/odm/lib64/libcvface_api.so:$(TARGET_COPY_OUT_ODM)/lib64/libcvface_api.so \
-    vendor/realme/rmx3371/proprietary/odm/lib64/libdav1d.so.4:$(TARGET_COPY_OUT_ODM)/lib64/libdav1d.so.4 \
     vendor/realme/rmx3371/proprietary/odm/lib64/libdmtp-protos-lite.so:$(TARGET_COPY_OUT_ODM)/lib64/libdmtp-protos-lite.so \
     vendor/realme/rmx3371/proprietary/odm/lib64/libdmtpclient.so:$(TARGET_COPY_OUT_ODM)/lib64/libdmtpclient.so \
     vendor/realme/rmx3371/proprietary/odm/lib64/libeffect_custom.so:$(TARGET_COPY_OUT_ODM)/lib64/libeffect_custom.so \
@@ -891,9 +877,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/rmx3371/proprietary/odm/lib64/libstfd_mobile_api.so:$(TARGET_COPY_OUT_ODM)/lib64/libstfd_mobile_api.so \
     vendor/realme/rmx3371/proprietary/odm/lib64/libsymphony-cpu.so:$(TARGET_COPY_OUT_ODM)/lib64/libsymphony-cpu.so \
     vendor/realme/rmx3371/proprietary/odm/lib64/libsymphonypower.so:$(TARGET_COPY_OUT_ODM)/lib64/libsymphonypower.so \
-    vendor/realme/rmx3371/proprietary/odm/lib64/libtriplecam_image_optical_zoom.so:$(TARGET_COPY_OUT_ODM)/lib64/libtriplecam_image_optical_zoom.so \
-    vendor/realme/rmx3371/proprietary/odm/lib64/libtriplecam_optical_zoom_control.so:$(TARGET_COPY_OUT_ODM)/lib64/libtriplecam_optical_zoom_control.so \
-    vendor/realme/rmx3371/proprietary/odm/lib64/libtriplecam_video_optical_zoom.so:$(TARGET_COPY_OUT_ODM)/lib64/libtriplecam_video_optical_zoom.so \
     vendor/realme/rmx3371/proprietary/odm/lib64/libui.so:$(TARGET_COPY_OUT_ODM)/lib64/libui.so \
     vendor/realme/rmx3371/proprietary/odm/lib64/libvl53l1_daemon.so:$(TARGET_COPY_OUT_ODM)/lib64/libvl53l1_daemon.so \
     vendor/realme/rmx3371/proprietary/odm/lib64/libwatermark_photo.so:$(TARGET_COPY_OUT_ODM)/lib64/libwatermark_photo.so \
