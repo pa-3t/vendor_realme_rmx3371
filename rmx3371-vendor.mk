@@ -10,6 +10,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/rmx3371/proprietary/etc/sysconfig/qti_whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/qti_whitelist.xml \
     vendor/realme/rmx3371/proprietary/odm/bin/hw/android.hardware.drm@1.3-service.widevine:$(TARGET_COPY_OUT_ODM)/bin/hw/android.hardware.drm@1.3-service.widevine \
     vendor/realme/rmx3371/proprietary/odm/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service \
+    vendor/realme/rmx3371/proprietary/odm/bin/hw/vendor.oplus.hardware.oplusSensor@1.0-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.oplus.hardware.oplusSensor@1.0-service \
     vendor/realme/rmx3371/proprietary/odm/bin/hw/vendor.oplus.hardware.thermalmntcfg@1.0-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.oplus.hardware.thermalmntcfg@1.0-service \
     vendor/realme/rmx3371/proprietary/odm/bin/hw/vendor.oplus.hardware.vibrator-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.oplus.hardware.vibrator-service \
     vendor/realme/rmx3371/proprietary/odm/bin/hw/vendor.qti.esepowermanager@1.1-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.qti.esepowermanager@1.1-service \
@@ -39,12 +40,12 @@ PRODUCT_COPY_FILES += \
     vendor/realme/rmx3371/proprietary/odm/etc/camera/M_Attribute_AG_BMW_1.1.0.model.hardcode:$(TARGET_COPY_OUT_ODM)/etc/camera/M_Attribute_AG_BMW_1.1.0.model.hardcode \
     vendor/realme/rmx3371/proprietary/odm/etc/camera/aicolor/duallut_background.bmp:$(TARGET_COPY_OUT_ODM)/etc/camera/aicolor/duallut_background.bmp \
     vendor/realme/rmx3371/proprietary/odm/etc/camera/aicolor/duallut_portrait.bmp:$(TARGET_COPY_OUT_ODM)/etc/camera/aicolor/duallut_portrait.bmp \
-    vendor/realme/rmx3371/proprietary/odm/etc/camera/anc/fusion_model:$(TARGET_COPY_OUT_ODM)/etc/camera/anc/fusion_model \
     vendor/realme/rmx3371/proprietary/odm/etc/camera/anc/fusion_model_post:$(TARGET_COPY_OUT_ODM)/etc/camera/anc/fusion_model_post \
-    vendor/realme/rmx3371/proprietary/odm/etc/camera/anc/merged_model:$(TARGET_COPY_OUT_ODM)/etc/camera/anc/merged_model \
+    vendor/realme/rmx3371/proprietary/odm/etc/camera/anc/fusion_model:$(TARGET_COPY_OUT_ODM)/etc/camera/anc/fusion_model \
     vendor/realme/rmx3371/proprietary/odm/etc/camera/anc/merged_model_post:$(TARGET_COPY_OUT_ODM)/etc/camera/anc/merged_model_post \
-    vendor/realme/rmx3371/proprietary/odm/etc/camera/anc/video_retention_model:$(TARGET_COPY_OUT_ODM)/etc/camera/anc/video_retention_model \
+    vendor/realme/rmx3371/proprietary/odm/etc/camera/anc/merged_model:$(TARGET_COPY_OUT_ODM)/etc/camera/anc/merged_model \
     vendor/realme/rmx3371/proprietary/odm/etc/camera/anc/video_retention_model_post:$(TARGET_COPY_OUT_ODM)/etc/camera/anc/video_retention_model_post \
+    vendor/realme/rmx3371/proprietary/odm/etc/camera/anc/video_retention_model:$(TARGET_COPY_OUT_ODM)/etc/camera/anc/video_retention_model \
     vendor/realme/rmx3371/proprietary/odm/etc/camera/anc/videolut_background.png:$(TARGET_COPY_OUT_ODM)/etc/camera/anc/videolut_background.png \
     vendor/realme/rmx3371/proprietary/odm/etc/camera/anc/videolut_portrait.png:$(TARGET_COPY_OUT_ODM)/etc/camera/anc/videolut_portrait.png \
     vendor/realme/rmx3371/proprietary/odm/etc/camera/anc/videolut_portrait_front.png:$(TARGET_COPY_OUT_ODM)/etc/camera/anc/videolut_portrait_front.png \
@@ -317,7 +318,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/rmx3371/proprietary/odm/etc/camera/omoji/assets/sdk_assets/ai_face_processor_e47_s1.bundle:$(TARGET_COPY_OUT_ODM)/etc/camera/omoji/assets/sdk_assets/ai_face_processor_e47_s1.bundle \
     vendor/realme/rmx3371/proprietary/odm/etc/camera/omoji/assets/sdk_assets/controller_cpp.bundle:$(TARGET_COPY_OUT_ODM)/etc/camera/omoji/assets/sdk_assets/controller_cpp.bundle \
     vendor/realme/rmx3371/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/colorLut0:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/colorLut0 \
-    vendor/realme/rmx3371/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/colorLut1:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/colorLut1 \
     vendor/realme/rmx3371/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/colorLut10:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/colorLut10 \
     vendor/realme/rmx3371/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/colorLut11:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/colorLut11 \
     vendor/realme/rmx3371/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/colorLut12:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/colorLut12 \
@@ -327,6 +327,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/rmx3371/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/colorLut16:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/colorLut16 \
     vendor/realme/rmx3371/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/colorLut17:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/colorLut17 \
     vendor/realme/rmx3371/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/colorLut18:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/colorLut18 \
+    vendor/realme/rmx3371/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/colorLut1:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/colorLut1 \
     vendor/realme/rmx3371/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/colorLut2:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/colorLut2 \
     vendor/realme/rmx3371/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/colorLut3:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/colorLut3 \
     vendor/realme/rmx3371/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/colorLut4:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/colorLut4 \
@@ -336,7 +337,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/rmx3371/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/colorLut8:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/colorLut8 \
     vendor/realme/rmx3371/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/colorLut9:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/colorLut9 \
     vendor/realme/rmx3371/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/curveLut0:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/curveLut0 \
-    vendor/realme/rmx3371/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/curveLut1:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/curveLut1 \
     vendor/realme/rmx3371/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/curveLut10:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/curveLut10 \
     vendor/realme/rmx3371/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/curveLut11:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/curveLut11 \
     vendor/realme/rmx3371/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/curveLut12:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/curveLut12 \
@@ -346,6 +346,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/rmx3371/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/curveLut16:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/curveLut16 \
     vendor/realme/rmx3371/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/curveLut17:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/curveLut17 \
     vendor/realme/rmx3371/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/curveLut18:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/curveLut18 \
+    vendor/realme/rmx3371/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/curveLut1:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/curveLut1 \
     vendor/realme/rmx3371/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/curveLut2:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/curveLut2 \
     vendor/realme/rmx3371/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/curveLut3:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/curveLut3 \
     vendor/realme/rmx3371/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/curveLut4:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/curveLut4 \
@@ -378,7 +379,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/rmx3371/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/platformSet.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/platformSet.ini \
     vendor/realme/rmx3371/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/sceneList.txt:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/sceneList.txt \
     vendor/realme/rmx3371/proprietary/odm/etc/camera/pf/PerfectColorSet/portrait/colorLut0:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/portrait/colorLut0 \
-    vendor/realme/rmx3371/proprietary/odm/etc/camera/pf/PerfectColorSet/portrait/colorLut1:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/portrait/colorLut1 \
     vendor/realme/rmx3371/proprietary/odm/etc/camera/pf/PerfectColorSet/portrait/colorLut10:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/portrait/colorLut10 \
     vendor/realme/rmx3371/proprietary/odm/etc/camera/pf/PerfectColorSet/portrait/colorLut11:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/portrait/colorLut11 \
     vendor/realme/rmx3371/proprietary/odm/etc/camera/pf/PerfectColorSet/portrait/colorLut12:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/portrait/colorLut12 \
@@ -388,6 +388,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/rmx3371/proprietary/odm/etc/camera/pf/PerfectColorSet/portrait/colorLut16:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/portrait/colorLut16 \
     vendor/realme/rmx3371/proprietary/odm/etc/camera/pf/PerfectColorSet/portrait/colorLut17:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/portrait/colorLut17 \
     vendor/realme/rmx3371/proprietary/odm/etc/camera/pf/PerfectColorSet/portrait/colorLut18:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/portrait/colorLut18 \
+    vendor/realme/rmx3371/proprietary/odm/etc/camera/pf/PerfectColorSet/portrait/colorLut1:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/portrait/colorLut1 \
     vendor/realme/rmx3371/proprietary/odm/etc/camera/pf/PerfectColorSet/portrait/colorLut2:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/portrait/colorLut2 \
     vendor/realme/rmx3371/proprietary/odm/etc/camera/pf/PerfectColorSet/portrait/colorLut3:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/portrait/colorLut3 \
     vendor/realme/rmx3371/proprietary/odm/etc/camera/pf/PerfectColorSet/portrait/colorLut4:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/portrait/colorLut4 \
@@ -397,7 +398,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/rmx3371/proprietary/odm/etc/camera/pf/PerfectColorSet/portrait/colorLut8:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/portrait/colorLut8 \
     vendor/realme/rmx3371/proprietary/odm/etc/camera/pf/PerfectColorSet/portrait/colorLut9:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/portrait/colorLut9 \
     vendor/realme/rmx3371/proprietary/odm/etc/camera/pf/PerfectColorSet/portrait/curveLut0:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/portrait/curveLut0 \
-    vendor/realme/rmx3371/proprietary/odm/etc/camera/pf/PerfectColorSet/portrait/curveLut1:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/portrait/curveLut1 \
     vendor/realme/rmx3371/proprietary/odm/etc/camera/pf/PerfectColorSet/portrait/curveLut10:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/portrait/curveLut10 \
     vendor/realme/rmx3371/proprietary/odm/etc/camera/pf/PerfectColorSet/portrait/curveLut11:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/portrait/curveLut11 \
     vendor/realme/rmx3371/proprietary/odm/etc/camera/pf/PerfectColorSet/portrait/curveLut12:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/portrait/curveLut12 \
@@ -407,6 +407,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/rmx3371/proprietary/odm/etc/camera/pf/PerfectColorSet/portrait/curveLut16:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/portrait/curveLut16 \
     vendor/realme/rmx3371/proprietary/odm/etc/camera/pf/PerfectColorSet/portrait/curveLut17:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/portrait/curveLut17 \
     vendor/realme/rmx3371/proprietary/odm/etc/camera/pf/PerfectColorSet/portrait/curveLut18:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/portrait/curveLut18 \
+    vendor/realme/rmx3371/proprietary/odm/etc/camera/pf/PerfectColorSet/portrait/curveLut1:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/portrait/curveLut1 \
     vendor/realme/rmx3371/proprietary/odm/etc/camera/pf/PerfectColorSet/portrait/curveLut2:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/portrait/curveLut2 \
     vendor/realme/rmx3371/proprietary/odm/etc/camera/pf/PerfectColorSet/portrait/curveLut3:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/portrait/curveLut3 \
     vendor/realme/rmx3371/proprietary/odm/etc/camera/pf/PerfectColorSet/portrait/curveLut4:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/portrait/curveLut4 \
@@ -484,8 +485,8 @@ PRODUCT_COPY_FILES += \
     vendor/realme/rmx3371/proprietary/odm/etc/camera/sticker/material/animoji/data.zip:$(TARGET_COPY_OUT_ODM)/etc/camera/sticker/material/animoji/data.zip \
     vendor/realme/rmx3371/proprietary/odm/etc/camera/sticker/material/animoji/snowleopard_v_0_0_0_9.zip:$(TARGET_COPY_OUT_ODM)/etc/camera/sticker/material/animoji/snowleopard_v_0_0_0_9.zip \
     vendor/realme/rmx3371/proprietary/odm/etc/camera/tonemap/curve_lut_0:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/curve_lut_0 \
-    vendor/realme/rmx3371/proprietary/odm/etc/camera/tonemap/curve_lut_1:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/curve_lut_1 \
     vendor/realme/rmx3371/proprietary/odm/etc/camera/tonemap/curve_lut_10:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/curve_lut_10 \
+    vendor/realme/rmx3371/proprietary/odm/etc/camera/tonemap/curve_lut_1:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/curve_lut_1 \
     vendor/realme/rmx3371/proprietary/odm/etc/camera/tonemap/curve_lut_2:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/curve_lut_2 \
     vendor/realme/rmx3371/proprietary/odm/etc/camera/tonemap/curve_lut_3:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/curve_lut_3 \
     vendor/realme/rmx3371/proprietary/odm/etc/camera/tonemap/curve_lut_4:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/curve_lut_4 \
@@ -497,8 +498,8 @@ PRODUCT_COPY_FILES += \
     vendor/realme/rmx3371/proprietary/odm/etc/camera/tonemap/list.txt:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/list.txt \
     vendor/realme/rmx3371/proprietary/odm/etc/camera/tonemap/s_curve_lut:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/s_curve_lut \
     vendor/realme/rmx3371/proprietary/odm/etc/camera/tonemap/tonemap_lut_0:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/tonemap_lut_0 \
-    vendor/realme/rmx3371/proprietary/odm/etc/camera/tonemap/tonemap_lut_1:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/tonemap_lut_1 \
     vendor/realme/rmx3371/proprietary/odm/etc/camera/tonemap/tonemap_lut_10:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/tonemap_lut_10 \
+    vendor/realme/rmx3371/proprietary/odm/etc/camera/tonemap/tonemap_lut_1:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/tonemap_lut_1 \
     vendor/realme/rmx3371/proprietary/odm/etc/camera/tonemap/tonemap_lut_2:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/tonemap_lut_2 \
     vendor/realme/rmx3371/proprietary/odm/etc/camera/tonemap/tonemap_lut_3:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/tonemap_lut_3 \
     vendor/realme/rmx3371/proprietary/odm/etc/camera/tonemap/tonemap_lut_4:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/tonemap_lut_4 \
@@ -510,6 +511,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/rmx3371/proprietary/odm/etc/camera/wide.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/wide.bin \
     vendor/realme/rmx3371/proprietary/odm/etc/init/android.hardware.drm@1.3-service.widevine.rc:$(TARGET_COPY_OUT_ODM)/etc/init/android.hardware.drm@1.3-service.widevine.rc \
     vendor/realme/rmx3371/proprietary/odm/etc/init/vendor.oplus.hardware.biometrics.fingerprint@2.1-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.biometrics.fingerprint@2.1-service.rc \
+    vendor/realme/rmx3371/proprietary/odm/etc/init/vendor.oplus.hardware.oplusSensor@1.0-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.oplusSensor@1.0-service.rc \
     vendor/realme/rmx3371/proprietary/odm/etc/init/vendor.oplus.hardware.thermalmntcfg@1.0-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.thermalmntcfg@1.0-service.rc \
     vendor/realme/rmx3371/proprietary/odm/etc/init/vendor.qti.esepowermanager@1.1-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.qti.esepowermanager@1.1-service.rc \
     vendor/realme/rmx3371/proprietary/odm/etc/init/vendor.qti.secure_element@1.2-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.qti.secure_element@1.2-service.rc \
@@ -682,6 +684,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/rmx3371/proprietary/odm/lib/vendor.oplus.hardware.appradio@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.appradio@1.0.so \
     vendor/realme/rmx3371/proprietary/odm/lib/vendor.oplus.hardware.communicationcenter_compat@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.communicationcenter_compat@1.0.so \
     vendor/realme/rmx3371/proprietary/odm/lib/vendor.oplus.hardware.ims@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.ims@1.0.so \
+    vendor/realme/rmx3371/proprietary/odm/lib/vendor.oplus.hardware.oplusSensor@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.oplusSensor@1.0.so \
     vendor/realme/rmx3371/proprietary/odm/lib/vendor.oplus.hardware.performance-V1-ndk_platform.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.performance-V1-ndk_platform.so \
     vendor/realme/rmx3371/proprietary/odm/lib/vendor.oplus.hardware.radio@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.radio@1.0.so \
     vendor/realme/rmx3371/proprietary/odm/lib/vendor.oplus.hardware.thermalmntcfg@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.thermalmntcfg@1.0.so \
@@ -915,6 +918,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/rmx3371/proprietary/odm/lib64/vendor.oplus.hardware.communicationcenter_compat@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.communicationcenter_compat@1.0.so \
     vendor/realme/rmx3371/proprietary/odm/lib64/vendor.oplus.hardware.ims@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.ims@1.0.so \
     vendor/realme/rmx3371/proprietary/odm/lib64/vendor.oplus.hardware.olc2-V1-ndk_platform.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.olc2-V1-ndk_platform.so \
+    vendor/realme/rmx3371/proprietary/odm/lib64/vendor.oplus.hardware.oplusSensor@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.oplusSensor@1.0.so \
     vendor/realme/rmx3371/proprietary/odm/lib64/vendor.oplus.hardware.orms@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.orms@1.0.so \
     vendor/realme/rmx3371/proprietary/odm/lib64/vendor.oplus.hardware.osense.client-V1-ndk_platform.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.osense.client-V1-ndk_platform.so \
     vendor/realme/rmx3371/proprietary/odm/lib64/vendor.oplus.hardware.osense.client@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.osense.client@1.0.so \
@@ -986,7 +990,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/rmx3371/proprietary/vendor/bin/netmgrd:$(TARGET_COPY_OUT_VENDOR)/bin/netmgrd \
     vendor/realme/rmx3371/proprietary/vendor/bin/npu_launcher:$(TARGET_COPY_OUT_VENDOR)/bin/npu_launcher \
     vendor/realme/rmx3371/proprietary/vendor/bin/pd-mapper:$(TARGET_COPY_OUT_VENDOR)/bin/pd-mapper \
-    vendor/realme/rmx3371/proprietary/vendor/bin/pd-mapper:$(TARGET_COPY_OUT_VENDOR)/bin/pd-mapper \
     vendor/realme/rmx3371/proprietary/vendor/bin/pm-proxy:$(TARGET_COPY_OUT_VENDOR)/bin/pm-proxy \
     vendor/realme/rmx3371/proprietary/vendor/bin/pm-service:$(TARGET_COPY_OUT_VENDOR)/bin/pm-service \
     vendor/realme/rmx3371/proprietary/vendor/bin/port-bridge:$(TARGET_COPY_OUT_VENDOR)/bin/port-bridge \
@@ -1002,7 +1005,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/rmx3371/proprietary/vendor/bin/sensors.qti:$(TARGET_COPY_OUT_VENDOR)/bin/sensors.qti \
     vendor/realme/rmx3371/proprietary/vendor/bin/sscrpcd:$(TARGET_COPY_OUT_VENDOR)/bin/sscrpcd \
     vendor/realme/rmx3371/proprietary/vendor/bin/ssgqmigd:$(TARGET_COPY_OUT_VENDOR)/bin/ssgqmigd \
-    vendor/realme/rmx3371/proprietary/vendor/bin/ssgtzd:$(TARGET_COPY_OUT_VENDOR)/bin/ssgtzd \
     vendor/realme/rmx3371/proprietary/vendor/bin/ssgtzd:$(TARGET_COPY_OUT_VENDOR)/bin/ssgtzd \
     vendor/realme/rmx3371/proprietary/vendor/bin/tftp_server:$(TARGET_COPY_OUT_VENDOR)/bin/tftp_server \
     vendor/realme/rmx3371/proprietary/vendor/bin/tftp_server:$(TARGET_COPY_OUT_VENDOR)/bin/tftp_server \
@@ -1073,7 +1075,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/rmx3371/proprietary/vendor/etc/init/qcrild.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qcrild.rc \
     vendor/realme/rmx3371/proprietary/vendor/etc/init/qmipriod.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qmipriod.rc \
     vendor/realme/rmx3371/proprietary/vendor/etc/init/qseecomd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qseecomd.rc \
-    vendor/realme/rmx3371/proprietary/vendor/etc/init/ssgtzd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ssgtzd.rc \
     vendor/realme/rmx3371/proprietary/vendor/etc/init/ssgtzd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ssgtzd.rc \
     vendor/realme/rmx3371/proprietary/vendor/etc/init/vendor.display.color@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.display.color@1.0-service.rc \
     vendor/realme/rmx3371/proprietary/vendor/etc/init/vendor.dolby.hardware.dms@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.dolby.hardware.dms@2.0-service.rc \
@@ -1296,8 +1297,8 @@ PRODUCT_COPY_FILES += \
     vendor/realme/rmx3371/proprietary/vendor/lib/libdapparamstorage.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdapparamstorage.so \
     vendor/realme/rmx3371/proprietary/vendor/lib/libdeccfg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdeccfg.so \
     vendor/realme/rmx3371/proprietary/vendor/lib/libdiag.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdiag.so \
+    vendor/realme/rmx3371/proprietary/vendor/lib/libdiag.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdiag.so \
     vendor/realme/rmx3371/proprietary/vendor/lib/libdsd2pcm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdsd2pcm.so \
-    vendor/realme/rmx3371/proprietary/vendor/lib/libdsi_netctrl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdsi_netctrl.so \
     vendor/realme/rmx3371/proprietary/vendor/lib/libdsi_netctrl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdsi_netctrl.so \
     vendor/realme/rmx3371/proprietary/vendor/lib/libdsutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdsutils.so \
     vendor/realme/rmx3371/proprietary/vendor/lib/libextcamera_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libextcamera_client.so \
@@ -1307,7 +1308,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/rmx3371/proprietary/vendor/lib/libgcs.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgcs.so \
     vendor/realme/rmx3371/proprietary/vendor/lib/libgui1_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgui1_vendor.so \
     vendor/realme/rmx3371/proprietary/vendor/lib/libhdmipassthru.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhdmipassthru.so \
-    vendor/realme/rmx3371/proprietary/vendor/lib/libidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libidl.so \
     vendor/realme/rmx3371/proprietary/vendor/lib/libidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libidl.so \
     vendor/realme/rmx3371/proprietary/vendor/lib/libjnihelper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjnihelper.so \
     vendor/realme/rmx3371/proprietary/vendor/lib/liblistensoundmodel2.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblistensoundmodel2.so \
@@ -1328,11 +1328,8 @@ PRODUCT_COPY_FILES += \
     vendor/realme/rmx3371/proprietary/vendor/lib/libqc2vppfilter.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqc2vppfilter.so \
     vendor/realme/rmx3371/proprietary/vendor/lib/libqcci_legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcci_legacy.so \
     vendor/realme/rmx3371/proprietary/vendor/lib/libqcmaputils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcmaputils.so \
-    vendor/realme/rmx3371/proprietary/vendor/lib/libqcmaputils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcmaputils.so \
     vendor/realme/rmx3371/proprietary/vendor/lib/libqcrilFramework.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcrilFramework.so \
     vendor/realme/rmx3371/proprietary/vendor/lib/libqdi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqdi.so \
-    vendor/realme/rmx3371/proprietary/vendor/lib/libqdi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqdi.so \
-    vendor/realme/rmx3371/proprietary/vendor/lib/libqdp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqdp.so \
     vendor/realme/rmx3371/proprietary/vendor/lib/libqdp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqdp.so \
     vendor/realme/rmx3371/proprietary/vendor/lib/libqmi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi.so \
     vendor/realme/rmx3371/proprietary/vendor/lib/libqmi_cci.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi_cci.so \
@@ -1341,7 +1338,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/rmx3371/proprietary/vendor/lib/libqmi_common_so.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi_common_so.so \
     vendor/realme/rmx3371/proprietary/vendor/lib/libqmi_csi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi_csi.so \
     vendor/realme/rmx3371/proprietary/vendor/lib/libqmi_encdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi_encdec.so \
-    vendor/realme/rmx3371/proprietary/vendor/lib/libqmiservices.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmiservices.so \
     vendor/realme/rmx3371/proprietary/vendor/lib/libqmiservices.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmiservices.so \
     vendor/realme/rmx3371/proprietary/vendor/lib/libqrtr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqrtr.so \
     vendor/realme/rmx3371/proprietary/vendor/lib/libqsocket.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqsocket.so \
@@ -1358,6 +1354,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/rmx3371/proprietary/vendor/lib/libscveObjectTracker.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveObjectTracker.so \
     vendor/realme/rmx3371/proprietary/vendor/lib/libscveObjectTracker_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveObjectTracker_stub.so \
     vendor/realme/rmx3371/proprietary/vendor/lib/libsecureui.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsecureui.so \
+    vendor/realme/rmx3371/proprietary/vendor/lib/libsecureui_svcsock.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsecureui_svcsock.so \
     vendor/realme/rmx3371/proprietary/vendor/lib/libsensorcal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensorcal.so \
     vendor/realme/rmx3371/proprietary/vendor/lib/libsensorslog.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensorslog.so \
     vendor/realme/rmx3371/proprietary/vendor/lib/libsns_device_mode_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsns_device_mode_stub.so \
@@ -1631,12 +1628,12 @@ PRODUCT_COPY_FILES += \
     vendor/realme/rmx3371/proprietary/vendor/lib64/libdapparamstorage.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdapparamstorage.so \
     vendor/realme/rmx3371/proprietary/vendor/lib64/libdeccfg.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdeccfg.so \
     vendor/realme/rmx3371/proprietary/vendor/lib64/libdiag.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdiag.so \
+    vendor/realme/rmx3371/proprietary/vendor/lib64/libdiag.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdiag.so \
     vendor/realme/rmx3371/proprietary/vendor/lib64/libdisp-aba.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdisp-aba.so \
     vendor/realme/rmx3371/proprietary/vendor/lib64/libdlbdsservice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdlbdsservice.so \
     vendor/realme/rmx3371/proprietary/vendor/lib64/libdpmqmihal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdpmqmihal.so \
     vendor/realme/rmx3371/proprietary/vendor/lib64/libdrmfs.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdrmfs.so \
     vendor/realme/rmx3371/proprietary/vendor/lib64/libdrmtime.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdrmtime.so \
-    vendor/realme/rmx3371/proprietary/vendor/lib64/libdsi_netctrl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdsi_netctrl.so \
     vendor/realme/rmx3371/proprietary/vendor/lib64/libdsi_netctrl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdsi_netctrl.so \
     vendor/realme/rmx3371/proprietary/vendor/lib64/libdsutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdsutils.so \
     vendor/realme/rmx3371/proprietary/vendor/lib64/libembmsservice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libembmsservice.so \
@@ -1646,7 +1643,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/rmx3371/proprietary/vendor/lib64/libhexagon_nn_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhexagon_nn_stub.so \
     vendor/realme/rmx3371/proprietary/vendor/lib64/libhta_hexagon_runtime.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhta_hexagon_runtime.so \
     vendor/realme/rmx3371/proprietary/vendor/lib64/libhvx_proxy_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhvx_proxy_stub.so \
-    vendor/realme/rmx3371/proprietary/vendor/lib64/libidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libidl.so \
     vendor/realme/rmx3371/proprietary/vendor/lib64/libidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libidl.so \
     vendor/realme/rmx3371/proprietary/vendor/lib64/libjnihelper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libjnihelper.so \
     vendor/realme/rmx3371/proprietary/vendor/lib64/libkeymasterdeviceutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymasterdeviceutils.so \
@@ -1683,12 +1679,9 @@ PRODUCT_COPY_FILES += \
     vendor/realme/rmx3371/proprietary/vendor/lib64/libqcbor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcbor.so \
     vendor/realme/rmx3371/proprietary/vendor/lib64/libqcci_legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcci_legacy.so \
     vendor/realme/rmx3371/proprietary/vendor/lib64/libqcmaputils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcmaputils.so \
-    vendor/realme/rmx3371/proprietary/vendor/lib64/libqcmaputils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcmaputils.so \
     vendor/realme/rmx3371/proprietary/vendor/lib64/libqcrilFramework.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcrilFramework.so \
     vendor/realme/rmx3371/proprietary/vendor/lib64/libqcrildatactl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcrildatactl.so \
     vendor/realme/rmx3371/proprietary/vendor/lib64/libqdi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqdi.so \
-    vendor/realme/rmx3371/proprietary/vendor/lib64/libqdi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqdi.so \
-    vendor/realme/rmx3371/proprietary/vendor/lib64/libqdp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqdp.so \
     vendor/realme/rmx3371/proprietary/vendor/lib64/libqdp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqdp.so \
     vendor/realme/rmx3371/proprietary/vendor/lib64/libqdutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqdutils.so \
     vendor/realme/rmx3371/proprietary/vendor/lib64/libqisl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqisl.so \
@@ -1699,7 +1692,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/rmx3371/proprietary/vendor/lib64/libqmi_common_so.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqmi_common_so.so \
     vendor/realme/rmx3371/proprietary/vendor/lib64/libqmi_csi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqmi_csi.so \
     vendor/realme/rmx3371/proprietary/vendor/lib64/libqmi_encdec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqmi_encdec.so \
-    vendor/realme/rmx3371/proprietary/vendor/lib64/libqmiservices.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqmiservices.so \
     vendor/realme/rmx3371/proprietary/vendor/lib64/libqmiservices.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqmiservices.so \
     vendor/realme/rmx3371/proprietary/vendor/lib64/libqrtr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqrtr.so \
     vendor/realme/rmx3371/proprietary/vendor/lib64/libqsocket.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqsocket.so \
@@ -1719,6 +1711,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/rmx3371/proprietary/vendor/lib64/libscveObjectTracker.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscveObjectTracker.so \
     vendor/realme/rmx3371/proprietary/vendor/lib64/libscveObjectTracker_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscveObjectTracker_stub.so \
     vendor/realme/rmx3371/proprietary/vendor/lib64/libsecureui.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsecureui.so \
+    vendor/realme/rmx3371/proprietary/vendor/lib64/libsecureui_svcsock.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsecureui_svcsock.so \
     vendor/realme/rmx3371/proprietary/vendor/lib64/libsensorcal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensorcal.so \
     vendor/realme/rmx3371/proprietary/vendor/lib64/libsensorslog.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensorslog.so \
     vendor/realme/rmx3371/proprietary/vendor/lib64/libsns_device_mode_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsns_device_mode_stub.so \
@@ -1888,6 +1881,7 @@ PRODUCT_PACKAGES += \
     android.hardware.thermal@2.0-service.qti \
     manifest_oplus_osiesr \
     manifest_android.hardware.drm@1.3-service.widevine \
+    manifest_oplusSensor \
     manifest_oplus_fingerprint \
     manifest_oplus_thermalmntcfg \
     vibrator-default
