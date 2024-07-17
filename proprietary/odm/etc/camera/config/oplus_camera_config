@@ -58,6 +58,13 @@
 },
 
 {
+  "VendorTag": "com.oplus.camera.support.activity.rotate",
+  "Type": "Byte",
+  "Count": "1",
+  "Value": "1"
+},
+
+{
   "VendorTag": "com.oplus.quick.video.support",
   "Type": "Byte",
   "Count": "1",
@@ -366,6 +373,13 @@
 },
 
 {
+  "VendorTag": "com.oplus.feature.slogan.location.support",
+  "Type": "Byte",
+  "Count": "1",
+  "Value": "0"
+},
+
+{
   "VendorTag": "com.oplus.feature.DCIP3.support",
   "Type": "Byte",
   "Count": "1",
@@ -559,13 +573,6 @@
   "Type": "Int32",
   "Count": "1",
   "Value": "3"
-},
-
-{
-  "VendorTag": "com.oplus.support.professional.mode.in.headline",
-  "Type": "Byte",
-  "Count": "1",
-  "Value": "0"
 },
 
 {
@@ -1306,27 +1313,6 @@
     "Type": "Byte",
     "Count": "1",
     "Value": "1"
-},
-
-{
-  "VendorTag": "com.oplus.street.default.zoom.focal.length.config",
-  "Type": "String",
-  "Count": "2",
-  "Value": "0.6(16),1(25)"
-},
-
-{
-  "VendorTag": "com.oplus.watermark.is.new.project.behavior",
-  "Type": "Byte",
-  "Count": "1",
-  "Value": "1"
-},
-
-{
-  "VendorTag": "com.oplus.feature.face.beauty.custom.menu.refinement.support",
-  "Type": "Byte",
-  "Count": "1",
-  "Value": "0"
 }
 ]
 
