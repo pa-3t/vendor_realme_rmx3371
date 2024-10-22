@@ -690,6 +690,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/rmx3371/proprietary/odm/lib/vendor.oplus.hardware.performance-V1-ndk_platform.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.performance-V1-ndk_platform.so \
     vendor/realme/rmx3371/proprietary/odm/lib/vendor.oplus.hardware.radio@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.radio@1.0.so \
     vendor/realme/rmx3371/proprietary/odm/lib64/anc.hal.so:$(TARGET_COPY_OUT_ODM)/lib64/anc.hal.so \
+    vendor/realme/spartan/proprietary/odm/lib64/libexif-jpeg-aps.so:$(TARGET_COPY_OUT_ODM)/lib64/libexif-jpeg-aps.so \
     vendor/realme/rmx3371/proprietary/odm/lib64/android.hardware.secure_element@1.0-impl.so:$(TARGET_COPY_OUT_ODM)/lib64/android.hardware.secure_element@1.0-impl.so \
     vendor/realme/rmx3371/proprietary/odm/lib64/camera/com.qti.sensor.hi846.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensor.hi846.so \
     vendor/realme/rmx3371/proprietary/odm/lib64/camera/com.qti.sensor.imx471.so:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensor.imx471.so \
